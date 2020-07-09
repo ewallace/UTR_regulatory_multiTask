@@ -139,6 +139,12 @@ names_gene_cheng = UTR_cheng$genename
 names_gene_fungiDB = UTR_fungiDB$genename
 ```
 
+### write tables with reference motifs
+
+```{r write ref motifs}
+write.csv(ref_motifs, "../data/ref_motif_counts_UTR3_cheng_fungidb.csv")
+```
+
 
 ### check the mean length of 3'UTR in Cheng's data
 ```{r}
